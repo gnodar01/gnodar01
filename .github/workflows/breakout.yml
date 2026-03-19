@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: generate SVG
-        uses: gnodar01/github-breakout@v2.0.0
+        uses: gnodar01/github-breakout@v2
         with:
           github_username: ${{ github.repository_owner }}
           enable_ghost_bricks: true
